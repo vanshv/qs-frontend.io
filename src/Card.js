@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css"; 
 
-const Card = ({ data }) => {
+const Card = ({data}) => {
   return (
     <div className="card">
       <div className="header">{data.id}</div>
